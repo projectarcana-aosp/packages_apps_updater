@@ -16,7 +16,7 @@
 -->
 <resources>
     <!-- App name -->
-    <string name="app_name">Atualizador KOSP</string>
+    <string name="app_name">Atualizador arcana</string>
 
     <!-- Menu -->
     <string name="settings">Configurações</string>

@@ -13,7 +13,7 @@
 // limitations under the License.
 
 android_app {
-    name: "KOSP-Updater",
+    name: "arcana-Updater",
     platform_apis: true,
     certificate: "platform",
     privileged: true,
@@ -26,7 +26,7 @@ android_app {
         "src/**/*.kt",
     ],
     required: [
-        "privapp_whitelist_com.krypton.updater",
+        "privapp_whitelist_com.arcana.updater",
     ],
     static_libs: [
         "androidx.annotation_annotation",
@@ -59,7 +59,7 @@ android_app {
 }
 
 prebuilt_etc {
-    name: "privapp_whitelist_com.krypton.updater",
+    name: "privapp_whitelist_com.arcana.updater",
     sub_dir: "permissions",
     src: "privapp-permissions-updater.xml",
     filename_from_src: true,

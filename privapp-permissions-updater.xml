@@ -15,7 +15,7 @@
      limitations under the License.
 -->
 <permissions>
-    <privapp-permissions package="com.krypton.updater">
+    <privapp-permissions package="com.arcana.updater">
         <permission name="android.permission.REBOOT" />
         <permission name="android.permission.INTERACT_ACROSS_USERS" />
     </privapp-permissions>
